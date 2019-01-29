@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) {
-        System.setProperty("spring.profiles.active", "mysql");
+        System.setProperty("spring.profiles.active", "default");
 
         SpringApplication.run(Application.class, args);
     }
